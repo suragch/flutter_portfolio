@@ -37,6 +37,13 @@ class MyHomePage extends StatelessWidget {
                 'https://suragch.dev/apps/mongolcode/',
                 'Mongol Code Converter',
               ),
+            ),
+            ListTile(
+              title: Text('Mongol Editor'),
+              onTap: () => html.window.open(
+                'https://suragch.dev/apps/mongoleditor/',
+                'Mongol Code Converter',
+              ),
             )
           ],
         ),
@@ -72,7 +79,7 @@ class MyHomePage extends StatelessWidget {
 }
 
 class GitHubButton extends StatelessWidget {
-  const GitHubButton({Key key}) : super(key: key);
+  const GitHubButton({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -86,7 +93,7 @@ class GitHubButton extends StatelessWidget {
 }
 
 class TwitterButton extends StatelessWidget {
-  const TwitterButton({Key key}) : super(key: key);
+  const TwitterButton({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -100,7 +107,7 @@ class TwitterButton extends StatelessWidget {
 }
 
 class MediumButton extends StatelessWidget {
-  const MediumButton({Key key}) : super(key: key);
+  const MediumButton({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -115,7 +122,7 @@ class MediumButton extends StatelessWidget {
 }
 
 class StackOverflowButton extends StatelessWidget {
-  const StackOverflowButton({Key key}) : super(key: key);
+  const StackOverflowButton({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

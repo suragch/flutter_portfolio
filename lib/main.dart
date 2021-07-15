@@ -42,7 +42,14 @@ class MyHomePage extends StatelessWidget {
               title: Text('Mongol Editor'),
               onTap: () => html.window.open(
                 'https://suragch.dev/apps/mongoleditor/',
-                'Mongol Code Converter',
+                'Mongol Editor',
+              ),
+            ),
+            ListTile(
+              title: Text('Todo Mongol Bichig'),
+              onTap: () => html.window.open(
+                'https://suragch.dev/apps/todo_editor/',
+                'Todo Mongol Bichig',
               ),
             )
           ],

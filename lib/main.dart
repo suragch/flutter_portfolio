@@ -51,6 +51,13 @@ class MyHomePage extends StatelessWidget {
                 'https://suragch.dev/apps/todo_editor/',
                 'Todo Mongol Bichig',
               ),
+            ),
+            ListTile(
+              title: Text("Flutter 'mongol' package demo"),
+              onTap: () => html.window.open(
+                'https://suragch.dev/apps/mongol/',
+                'mongol',
+              ),
             )
           ],
         ),
